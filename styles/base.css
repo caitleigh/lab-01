@@ -1,6 +1,6 @@
 body {
     width: 960px;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
@@ -9,13 +9,14 @@ section {
 }
 
 div {
-    background-color: darkblue; 
+    background-color: blue; 
 
 }
 
 h1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 @media (max-width: 767px) {

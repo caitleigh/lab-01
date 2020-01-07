@@ -1,64 +1,55 @@
-.one {
+
+.a {
     width: 100%;
     height: 75px;
-    border: 1px black solid;
+    line-height: 75px;
 }
 
-.two {
+.b {
     width: 100%;
     height: 150px;
-    border: 1px black solid;
-    border-top: 0px;
-
-}
-
-.three {
-    /* width: 100%; */
-    border: 1px black solid;
-    border-top: 0px;
+    line-height: 150px;
 }
 
 .c, .d {
     height: 125px;
-    border: solid black 1px;
+    line-height: 125px;
 }
 
 .four {
     width: 100%;
     display: inline-block;
     margin: auto;
-    /* border: solid black 1px; */
 }
 
 .e, .f, .g, .h {
     /* display: inline-flex; */
-    float: right;
+    float: left;
     width: 240px;
     height: 250px;
-
+    line-height: 250px;
+    margin: -1px;
 }
 
-.five {
+.j {
     /* width: 100%; */
     height: 80px;
-    border: solid black 1px;
-
+    line-height: 80px;
+    margin-top: -1px;
 }
 
 @media ( min-width: 768px) {
-    body {
-        margin: auto;
-    }
-    .one {
+    .a {
         width: 100%;
         height: 100px;
-
+        line-height: 100px;
     }
 
-    .two {
+    .b {
         /* display: inline-block; */
         float: left;
         height: 600px;
+        line-height: 600px;
         width: 200px;
         margin-right: -4px;
     }
@@ -71,13 +62,14 @@
         float: left;
         width: 380px;
         height: 200px;
+        line-height: 200px;
     }
 
     .e, .f, .g, .h {
         float: left;
         width: 190px;
         height: 250px;
-        border: solid black 1px;
+        line-height: 250px;
     }
 
     .five {
@@ -87,8 +79,8 @@
     .j {
         float: left;
         height: 150px;
+        line-height: 150px;
         width: 760px;
-        border: solid black 1px;
     }
 
 
