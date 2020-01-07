@@ -1,0 +1,36 @@
+body {
+    width: 960px;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: lightgrey;
+}
+
+div {
+    background-color: darkblue; 
+
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: grey;
+        width: 480px;
+        margin: auto;
+    }
+
+    section {
+        background-color: white;
+    }
+
+    div {
+        background-color: darkgreen;
+    }
+
+}
